@@ -45,7 +45,7 @@ final class MarvelHeroView: UIView, UICollectionViewDelegate {
     private let colors: [UIColor] = [.red, .green, .blue, .purple, .orange, .black, .cyan]
     
     private let images: [UIImage?] = [UIImage(named: "deadpool"), UIImage(named: "ironman"), UIImage(named: "spiderman"), UIImage(named: "ironman"), UIImage(named: "ironman"), UIImage(named: "ironman"), UIImage(named: "ironman")]
-    private let heroNames: [String] = ["Kek", "Lol", "Pepe", "Pepa", "Puff", "No", "Name"]
+    private let heroNames: [String] = ["Dead Pool", "Iron Man", "Spiderman", "Pepa", "Puff", "No", "Name"]
     
     private let cellId = "cell id"
     private lazy var collectionView: UICollectionView = {

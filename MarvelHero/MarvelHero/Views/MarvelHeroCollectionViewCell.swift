@@ -21,8 +21,8 @@ final class MarvelHeroCollectionViewCell: UICollectionViewCell {
     
     private let nameLabel: UILabel = {
         let nameLabel = UILabel()
-        nameLabel.textColor = .label
-        nameLabel.font = .systemFont(ofSize: 18, weight: .medium)
+        nameLabel.textColor = .white
+        nameLabel.font = UIFont.boldSystemFont(ofSize: 22)
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         return nameLabel
     }()
@@ -50,7 +50,7 @@ final class MarvelHeroCollectionViewCell: UICollectionViewCell {
     private func addConstraints() {
         NSLayoutConstraint.activate([
             nameLabel.heightAnchor.constraint(equalToConstant: 30),
-            nameLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 7),
+            nameLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 12),
             nameLabel.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -7),
             nameLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -7),
             
